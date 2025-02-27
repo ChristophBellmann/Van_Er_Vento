@@ -1,0 +1,175 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a4b60af5-173d-4489-9d9f-c9b1498c5919")
+	(paper "A4")
+	(title_block
+		(title "Er Vento - electrical schematic")
+		(date "2025-02-20")
+		(rev "0.1")
+		(company "Christoph")
+	)
+	(lib_symbols)
+	(text "Circuit Overview"
+		(exclude_from_sim no)
+		(at 76.2 53.086 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "0eaeb392-e25c-4ff4-ae75-19ddb2420d27")
+	)
+	(text "Material"
+		(exclude_from_sim no)
+		(at 57.912 119.38 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "1657a004-d41f-4054-b03d-a5939ef7e9df")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 198.12 51.308 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "c4a2f625-2f1b-43e7-83da-9d55da029fa6")
+	)
+	(sheet
+		(at 38.735 34.29)
+		(size 100.33 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4291a610-f98e-495b-82ec-0c59d0445525")
+		(property "Sheetname" "Overview"
+			(at 38.735 33.5784 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "overview.kicad_sch"
+			(at 38.735 71.7046 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Single-Line-Diagram"
+				(path "/a4b60af5-173d-4489-9d9f-c9b1498c5919"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 99.06)
+		(size 99.06 42.545)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "503818da-d459-4f96-a307-ed1d9932adc2")
+		(property "Sheetname" "Material"
+			(at 38.1 98.3484 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Material.kicad_sch"
+			(at 38.1 142.1896 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Single-Line-Diagram"
+				(path "/a4b60af5-173d-4489-9d9f-c9b1498c5919"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 34.29)
+		(size 86.995 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9535340d-f892-489c-8e96-bcfaf2cc5b9f")
+		(property "Sheetname" "Block Diagram"
+			(at 158.75 33.5784 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at 158.75 71.7046 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Single-Line-Diagram"
+				(path "/a4b60af5-173d-4489-9d9f-c9b1498c5919"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

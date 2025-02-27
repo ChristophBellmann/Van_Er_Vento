@@ -1,0 +1,307 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "634547e7-0755-497b-9b3b-9a0a8c8c69de")
+	(paper "A4")
+	(title_block
+		(title "Er Vento - electrical schematic")
+		(date "2025-02-20")
+		(rev "0.1")
+		(company "Christoph")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 150.495 74.295)
+		(end 191.135 79.375)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.25)
+		)
+		(uuid 2273876f-6bd2-47d5-989f-46b4e8da8d4d)
+	)
+	(rectangle
+		(start 100.965 35.56)
+		(end 142.875 96.52)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.33)
+		)
+		(uuid 5ab8753c-f37b-4dc5-b15d-df1df192e9a8)
+	)
+	(rectangle
+		(start 150.495 52.07)
+		(end 191.135 57.15)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.25)
+		)
+		(uuid 92a8d334-6ee9-4dc4-99b2-896663514e81)
+	)
+	(rectangle
+		(start 54.61 35.56)
+		(end 96.52 96.52)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.33)
+		)
+		(uuid 9c31bb89-fc78-433e-95b3-3d085c9c46ce)
+	)
+	(rectangle
+		(start 148.59 35.56)
+		(end 200.025 96.52)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 0.33)
+		)
+		(uuid af986e29-1967-451c-8d99-1e3f70977acf)
+	)
+	(rectangle
+		(start 150.495 44.45)
+		(end 191.135 49.53)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.25)
+		)
+		(uuid cda78789-2fb8-46c3-8451-43e75407e7a8)
+	)
+	(rectangle
+		(start 125.095 109.855)
+		(end 145.415 126.365)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(uuid cf2620ff-93b4-40ed-bf18-06220b44639a)
+	)
+	(rectangle
+		(start 150.495 59.563)
+		(end 198.12 64.643)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.25)
+		)
+		(uuid dd7cc9fb-6e4c-46c1-b1ea-e7bfb4b17901)
+	)
+	(rectangle
+		(start 150.368 67.056)
+		(end 191.643 72.136)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.25)
+		)
+		(uuid e203e21c-804c-47b5-ac49-978f163f1fb2)
+	)
+	(text "- Cable A\n- Cable B\n- Cable C\n- Switch A & B\n- Pug A & B"
+		(exclude_from_sim no)
+		(at 58.801 57.912 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "0da0b627-aabe-47cc-9d2b-6ce8ef3efdea")
+	)
+	(text "-> cheap LiFePo4 Batteries @24 V availible\n\n"
+		(exclude_from_sim no)
+		(at 136.652 131.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1950a175-10b1-4ab6-9d8e-8d0289e7e6c1")
+	)
+	(text "24 V"
+		(exclude_from_sim no)
+		(at 130.175 119.253 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "24659e64-9017-41b0-9aa4-4eda7a46604e")
+	)
+	(text "- DC-DC Converter"
+		(exclude_from_sim no)
+		(at 103.378 47.498 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "32f1e862-daf1-4c88-83c5-3b6ff49bb74e")
+	)
+	(text "- Battery"
+		(exclude_from_sim no)
+		(at 103.124 53.594 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "3deb3ef9-d671-4736-a449-10ffefdb6f46")
+	)
+	(text "- GFCI Protection"
+		(exclude_from_sim no)
+		(at 150.495 69.85 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "3f1a6e5a-a186-4efb-af5a-0f9a0909b26e")
+	)
+	(text "- Display Power"
+		(exclude_from_sim no)
+		(at 103.124 79.756 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "5f54d249-d899-41b4-9a61-c2ccd0885c04")
+	)
+	(text "- Charger Output Fuse"
+		(exclude_from_sim no)
+		(at 150.495 62.23 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "6b281b32-b8cc-446c-8143-1734f483c9e8")
+	)
+	(text "- Lights Fuse"
+		(exclude_from_sim no)
+		(at 150.495 77.089 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "8932990f-6da1-4107-aa21-bf36b32a9874")
+	)
+	(text "- Lights"
+		(exclude_from_sim no)
+		(at 103.886 73.152 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "930e28b7-6633-4e4e-a918-fdf072b9917f")
+	)
+	(text "- DC Output Fuse"
+		(exclude_from_sim no)
+		(at 150.495 54.864 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "941f921b-1880-40fd-b242-c469d2266934")
+	)
+	(text "- DC Input Fuse"
+		(exclude_from_sim no)
+		(at 150.241 47.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "a295fac3-41e9-4417-86cb-cfa557e8add5")
+	)
+	(text "- 230 V Inverter"
+		(exclude_from_sim no)
+		(at 103.632 60.198 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "aeaa0056-bdc7-42d7-91b0-4a97d328ed50")
+	)
+	(text "- Switches"
+		(exclude_from_sim no)
+		(at 103.378 66.548 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "b76fa2b5-f299-4f28-a5d3-ddd99e289cd2")
+	)
+	(text "- Solar Panels\n"
+		(exclude_from_sim no)
+		(at 103.378 41.148 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "c3cf63aa-7b0f-4788-a966-da4ce35085c7")
+	)
+)
