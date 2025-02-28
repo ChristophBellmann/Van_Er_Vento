@@ -13,7 +13,7 @@ titlepage: true
 titlepage-text-color: "153133"
 titlepage-rule-color: "153133"
 titlepage-rule-height: 2
-titlepage-logo: ./../images/logo_fraktal.png
+titlepage-logo: ./../images/logo.png
 logo-width: 80mm
 fontfamily: bera
 fontsize: 11pt
